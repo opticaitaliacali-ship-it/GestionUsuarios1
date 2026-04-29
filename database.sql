@@ -1,0 +1,18 @@
+CREATE DATABASE usuarios_app;
+USE usuarios_app;
+
+CREATE TABLE usuarios (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(100) NOT NULL,
+  cedula VARCHAR(30) NOT NULL,
+  telefono VARCHAR(30) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE admins (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  usuario VARCHAR(50) NOT NULL UNIQUE,
+  clave VARCHAR(255) NOT NULL
+);
+
+INSERT INTO admins(usuario, clave) VALUES ('admin', 'admin123');

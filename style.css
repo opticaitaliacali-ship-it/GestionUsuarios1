@@ -1,0 +1,29 @@
+body{
+  font-family: Arial, sans-serif;
+  background:#f4f6f9;
+  margin:0;
+  padding:20px;
+}
+form,input,button,table{
+  margin-top:10px;
+}
+input{
+  padding:8px;
+  width:250px;
+}
+button{
+  padding:10px;
+  background:#2563eb;
+  color:white;
+  border:none;
+}
+table{
+  border-collapse:collapse;
+  width:100%;
+  background:white;
+}
+th,td{
+  padding:10px;
+  border:1px solid #ddd;
+}
+a{ text-decoration:none; color:#2563eb; }
