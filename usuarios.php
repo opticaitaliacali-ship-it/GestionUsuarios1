@@ -20,7 +20,7 @@ $usuarios=$cn->query('SELECT * FROM usuarios ORDER BY id DESC');
 <!DOCTYPE html>
 <html><head><meta charset='utf-8'><title>Usuarios</title></head>
 <body>
-<h2>Gestión de Usuarios</h2>
+<h2>GESTIÓN DE USUARIOS</h2>
 <form method='post'>
 <input name='nombre' placeholder='Nombre' required>
 <input name='cedula' placeholder='Cédula' required>
